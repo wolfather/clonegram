@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "clonegram",
+    "slug": "clonegram",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+[
+    {
+        "id" : 1,
+        "imgSrc": "assets/posts/img.01.jpg",
+        "text": "first post",
+        "authorId": 1,
+        "likes": [2, 3]
+    },
+    {
+        "id" : 2,
+        "imgSrc": "assets/posts/img.02.jpg",
+        "text": "second post",
+        "authorId": 2,
+        "likes": [1, 3]
+    }
+]
