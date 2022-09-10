@@ -22,9 +22,13 @@ export function postsReducer(state: Post[] = PostsStub, action: PostReducerProps
                 likesList.add(payload.userId);
             }
 
-            const newPostState: Post = {...getPostById, likes: Array.from(likesList)};
-            
-            return state.map(post => post.id === newPostState.id ? newPostState : post);
+            const newPostState: Post = {
+                ...getPostById, likes: Array.from(likesList)
+            };
+
+            return state.map(post => (
+                post.id === newPostState.id ? newPostState : post)
+            );
 
         default: return state;
     }

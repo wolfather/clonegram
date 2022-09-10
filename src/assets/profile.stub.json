@@ -1,0 +1,9 @@
+{
+    "id": 0,
+    "name": "Main User",
+    "description": "Main User profile",
+    "image": {
+        "thumb": "http://thumb.com/thumb/0.jpg",
+        "large": "http://thumb.com/large/0.jpg"
+    }
+}
